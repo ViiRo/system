@@ -51,7 +51,7 @@ client.on('message', function(message) {
 });
 	
   client.on('message', message => {
-    if (message.content.startsWith("رابط")) {
+    if (message.content.startsWith("رابط$")) {
 
   message.channel.createInvite({
         thing: true,
@@ -63,7 +63,7 @@ client.on('message', function(message) {
   message.channel.send("**تم ارسال الرابط برسالة خاصة**")
 
 message.author.send(`**مدة الرابط : يـوم
-دد استخدامات الرابط : 25**`)
+دد استخدامات الرابط : 5**`)
 
     }
 });
